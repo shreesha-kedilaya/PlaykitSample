@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2005AE8E1E80133900FB01B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2005AE8D1E80133900FB01B0 /* main.m */; };
+		2005AE911E80133900FB01B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2005AE901E80133900FB01B0 /* AppDelegate.m */; };
+		2005AE941E80133900FB01B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2005AE931E80133900FB01B0 /* ViewController.m */; };
+		2005AE971E80133900FB01B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2005AE951E80133900FB01B0 /* Main.storyboard */; };
+		2005AE991E80133900FB01B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2005AE981E80133900FB01B0 /* Assets.xcassets */; };
+		2005AE9C1E80133900FB01B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2005AE9A1E80133900FB01B0 /* LaunchScreen.storyboard */; };
+		6CFAE14F341DFF9F88ABD248 /* Pods_SharedPods_YouboraSample_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F47B916C687BDA5D5C8F67 /* Pods_SharedPods_YouboraSample_Swift.framework */; };
+		BFD20A4A1EA7A88E0018FD8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD20A491EA7A88E0018FD8A /* AppDelegate.swift */; };
+		BFD20A4C1EA7A88E0018FD8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD20A4B1EA7A88E0018FD8A /* ViewController.swift */; };
+		BFD20A4F1EA7A88E0018FD8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD20A4D1EA7A88E0018FD8A /* Main.storyboard */; };
+		BFD20A511EA7A88E0018FD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD20A501EA7A88E0018FD8A /* Assets.xcassets */; };
+		BFD20A541EA7A88E0018FD8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD20A521EA7A88E0018FD8A /* LaunchScreen.storyboard */; };
+		F75DE36088A73835AEAF634F /* Pods_SharedPods_YouboraSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A718B2B371765AA28283C4FA /* Pods_SharedPods_YouboraSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05F47B916C687BDA5D5C8F67 /* Pods_SharedPods_YouboraSample_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedPods_YouboraSample_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDC2E0886B5B72DB17A6FCC /* Pods-SharedPods-YouboraSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedPods-YouboraSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedPods-YouboraSample/Pods-SharedPods-YouboraSample.release.xcconfig"; sourceTree = "<group>"; };
+		2005AE891E80133900FB01B0 /* YouboraSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouboraSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2005AE8D1E80133900FB01B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2005AE8F1E80133900FB01B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2005AE901E80133900FB01B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2005AE921E80133900FB01B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2005AE931E80133900FB01B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2005AE961E80133900FB01B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2005AE981E80133900FB01B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2005AE9B1E80133900FB01B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2005AE9D1E80133900FB01B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A718B2B371765AA28283C4FA /* Pods_SharedPods_YouboraSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SharedPods_YouboraSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB57E45171EBC33FCFE23FAF /* Pods-SharedPods-YouboraSample-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedPods-YouboraSample-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-SharedPods-YouboraSample-Swift/Pods-SharedPods-YouboraSample-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		BFD20A471EA7A88E0018FD8A /* YouboraSample-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouboraSample-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD20A491EA7A88E0018FD8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD20A4B1EA7A88E0018FD8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFD20A4E1EA7A88E0018FD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD20A501EA7A88E0018FD8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFD20A531EA7A88E0018FD8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFD20A551EA7A88E0018FD8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6BD8420228D139DB2C92366 /* Pods-SharedPods-YouboraSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedPods-YouboraSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedPods-YouboraSample/Pods-SharedPods-YouboraSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E6E0C83C51581CE0DA6EF01F /* Pods-SharedPods-YouboraSample-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SharedPods-YouboraSample-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SharedPods-YouboraSample-Swift/Pods-SharedPods-YouboraSample-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2005AE861E80133900FB01B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75DE36088A73835AEAF634F /* Pods_SharedPods_YouboraSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD20A441EA7A88E0018FD8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFAE14F341DFF9F88ABD248 /* Pods_SharedPods_YouboraSample_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2005AE801E80133900FB01B0 = {
+			isa = PBXGroup;
+			children = (
+				2005AE8B1E80133900FB01B0 /* YouboraSample */,
+				BFD20A481EA7A88E0018FD8A /* YouboraSample-Swift */,
+				2005AE8A1E80133900FB01B0 /* Products */,
+				8F288488A9D5F0D900526F88 /* Pods */,
+				CD20A9A291F1A3BD3E1C287D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2005AE8A1E80133900FB01B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2005AE891E80133900FB01B0 /* YouboraSample.app */,
+				BFD20A471EA7A88E0018FD8A /* YouboraSample-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2005AE8B1E80133900FB01B0 /* YouboraSample */ = {
+			isa = PBXGroup;
+			children = (
+				2005AE8F1E80133900FB01B0 /* AppDelegate.h */,
+				2005AE901E80133900FB01B0 /* AppDelegate.m */,
+				2005AE921E80133900FB01B0 /* ViewController.h */,
+				2005AE931E80133900FB01B0 /* ViewController.m */,
+				2005AE951E80133900FB01B0 /* Main.storyboard */,
+				2005AE981E80133900FB01B0 /* Assets.xcassets */,
+				2005AE9A1E80133900FB01B0 /* LaunchScreen.storyboard */,
+				2005AE9D1E80133900FB01B0 /* Info.plist */,
+				2005AE8C1E80133900FB01B0 /* Supporting Files */,
+			);
+			path = YouboraSample;
+			sourceTree = "<group>";
+		};
+		2005AE8C1E80133900FB01B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2005AE8D1E80133900FB01B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F288488A9D5F0D900526F88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6BD8420228D139DB2C92366 /* Pods-SharedPods-YouboraSample.debug.xcconfig */,
+				1BDC2E0886B5B72DB17A6FCC /* Pods-SharedPods-YouboraSample.release.xcconfig */,
+				E6E0C83C51581CE0DA6EF01F /* Pods-SharedPods-YouboraSample-Swift.debug.xcconfig */,
+				AB57E45171EBC33FCFE23FAF /* Pods-SharedPods-YouboraSample-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFD20A481EA7A88E0018FD8A /* YouboraSample-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BFD20A491EA7A88E0018FD8A /* AppDelegate.swift */,
+				BFD20A4B1EA7A88E0018FD8A /* ViewController.swift */,
+				BFD20A4D1EA7A88E0018FD8A /* Main.storyboard */,
+				BFD20A501EA7A88E0018FD8A /* Assets.xcassets */,
+				BFD20A521EA7A88E0018FD8A /* LaunchScreen.storyboard */,
+				BFD20A551EA7A88E0018FD8A /* Info.plist */,
+			);
+			path = "YouboraSample-Swift";
+			sourceTree = "<group>";
+		};
+		CD20A9A291F1A3BD3E1C287D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A718B2B371765AA28283C4FA /* Pods_SharedPods_YouboraSample.framework */,
+				05F47B916C687BDA5D5C8F67 /* Pods_SharedPods_YouboraSample_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2005AE881E80133900FB01B0 /* YouboraSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2005AEA01E80133900FB01B0 /* Build configuration list for PBXNativeTarget "YouboraSample" */;
+			buildPhases = (
+				E1C8CB92B3FDA8129B6A9E2B /* [CP] Check Pods Manifest.lock */,
+				2005AE851E80133900FB01B0 /* Sources */,
+				2005AE861E80133900FB01B0 /* Frameworks */,
+				2005AE871E80133900FB01B0 /* Resources */,
+				2321E669D9F086BBF6212B63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouboraSample;
+			productName = YouboraSample;
+			productReference = 2005AE891E80133900FB01B0 /* YouboraSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD20A461EA7A88E0018FD8A /* YouboraSample-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD20A581EA7A88E0018FD8A /* Build configuration list for PBXNativeTarget "YouboraSample-Swift" */;
+			buildPhases = (
+				DA6D72395D3AE25067EE1039 /* [CP] Check Pods Manifest.lock */,
+				BFD20A431EA7A88E0018FD8A /* Sources */,
+				BFD20A441EA7A88E0018FD8A /* Frameworks */,
+				BFD20A451EA7A88E0018FD8A /* Resources */,
+				481E198182B781C2254CA390 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouboraSample-Swift";
+			productName = "YouboraSample-Swift";
+			productReference = BFD20A471EA7A88E0018FD8A /* YouboraSample-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2005AE811E80133900FB01B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Kaltura;
+				TargetAttributes = {
+					2005AE881E80133900FB01B0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X8RDCFJK95;
+						ProvisioningStyle = Automatic;
+					};
+					BFD20A461EA7A88E0018FD8A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = X8RDCFJK95;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2005AE841E80133900FB01B0 /* Build configuration list for PBXProject "YouboraSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2005AE801E80133900FB01B0;
+			productRefGroup = 2005AE8A1E80133900FB01B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2005AE881E80133900FB01B0 /* YouboraSample */,
+				BFD20A461EA7A88E0018FD8A /* YouboraSample-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2005AE871E80133900FB01B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2005AE9C1E80133900FB01B0 /* LaunchScreen.storyboard in Resources */,
+				2005AE991E80133900FB01B0 /* Assets.xcassets in Resources */,
+				2005AE971E80133900FB01B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD20A451EA7A88E0018FD8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD20A541EA7A88E0018FD8A /* LaunchScreen.storyboard in Resources */,
+				BFD20A511EA7A88E0018FD8A /* Assets.xcassets in Resources */,
+				BFD20A4F1EA7A88E0018FD8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2321E669D9F086BBF6212B63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharedPods-YouboraSample/Pods-SharedPods-YouboraSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KalturaNetKit/KalturaNetKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/PlayKit/PlayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PlayKitUtils/PlayKitUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/PlayKitYoubora/PlayKitYoubora.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/YouboraLib/YouboraLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KalturaNetKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayKitUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayKitYoubora.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouboraLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SharedPods-YouboraSample/Pods-SharedPods-YouboraSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481E198182B781C2254CA390 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SharedPods-YouboraSample-Swift/Pods-SharedPods-YouboraSample-Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KalturaNetKit/KalturaNetKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/PlayKit/PlayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PlayKitUtils/PlayKitUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/PlayKitYoubora/PlayKitYoubora.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/YouboraLib/YouboraLib.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KalturaNetKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayKitUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlayKitYoubora.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YouboraLib.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SharedPods-YouboraSample-Swift/Pods-SharedPods-YouboraSample-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA6D72395D3AE25067EE1039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharedPods-YouboraSample-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C8CB92B3FDA8129B6A9E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SharedPods-YouboraSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2005AE851E80133900FB01B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2005AE941E80133900FB01B0 /* ViewController.m in Sources */,
+				2005AE911E80133900FB01B0 /* AppDelegate.m in Sources */,
+				2005AE8E1E80133900FB01B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD20A431EA7A88E0018FD8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD20A4C1EA7A88E0018FD8A /* ViewController.swift in Sources */,
+				BFD20A4A1EA7A88E0018FD8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2005AE951E80133900FB01B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2005AE961E80133900FB01B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2005AE9A1E80133900FB01B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2005AE9B1E80133900FB01B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD20A4D1EA7A88E0018FD8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD20A4E1EA7A88E0018FD8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD20A521EA7A88E0018FD8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD20A531EA7A88E0018FD8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2005AE9E1E80133900FB01B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2005AE9F1E80133900FB01B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2005AEA11E80133900FB01B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BD8420228D139DB2C92366 /* Pods-SharedPods-YouboraSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8RDCFJK95;
+				INFOPLIST_FILE = YouboraSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaltura.playkit.YouboraSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2005AEA21E80133900FB01B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDC2E0886B5B72DB17A6FCC /* Pods-SharedPods-YouboraSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8RDCFJK95;
+				INFOPLIST_FILE = YouboraSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaltura.playkit.YouboraSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFD20A561EA7A88E0018FD8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E0C83C51581CE0DA6EF01F /* Pods-SharedPods-YouboraSample-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = X8RDCFJK95;
+				INFOPLIST_FILE = "YouboraSample-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaltura.avplayer.sample.YouboraSample-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BFD20A571EA7A88E0018FD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB57E45171EBC33FCFE23FAF /* Pods-SharedPods-YouboraSample-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = X8RDCFJK95;
+				INFOPLIST_FILE = "YouboraSample-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaltura.avplayer.sample.YouboraSample-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2005AE841E80133900FB01B0 /* Build configuration list for PBXProject "YouboraSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2005AE9E1E80133900FB01B0 /* Debug */,
+				2005AE9F1E80133900FB01B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2005AEA01E80133900FB01B0 /* Build configuration list for PBXNativeTarget "YouboraSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2005AEA11E80133900FB01B0 /* Debug */,
+				2005AEA21E80133900FB01B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD20A581EA7A88E0018FD8A /* Build configuration list for PBXNativeTarget "YouboraSample-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD20A561EA7A88E0018FD8A /* Debug */,
+				BFD20A571EA7A88E0018FD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2005AE811E80133900FB01B0 /* Project object */;
+}

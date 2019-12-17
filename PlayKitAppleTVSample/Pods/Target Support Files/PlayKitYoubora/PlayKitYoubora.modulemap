@@ -1,0 +1,6 @@
+framework module PlayKitYoubora {
+  umbrella header "PlayKitYoubora-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14854.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h9n-sq-8Zz">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14806.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="XtL-RR-hwh">
+            <objects>
+                <viewController id="h9n-sq-8Zz" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SxM-W6-ikh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="UaZ-8U-gnb" customClass="PlayerView" customModule="PlayKit">
+                                <rect key="frame" x="0.0" y="44" width="375" height="670"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkq-Fy-pwc">
+                                <rect key="frame" x="0.0" y="714" width="375" height="64"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="IVe-Aj-NTU">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVW-Qg-iQt">
+                                            <rect key="frame" x="8" y="17" width="30" height="30"/>
+                                            <state key="normal" title="Play">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="playTouched:" destination="h9n-sq-8Zz" eventType="touchUpInside" id="sH1-4W-1MB"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4a-5t-231">
+                                            <rect key="frame" x="53" y="17" width="42" height="30"/>
+                                            <state key="normal" title="Pause">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="pauseTouched:" destination="h9n-sq-8Zz" eventType="touchUpInside" id="ncD-58-fwO"/>
+                                            </connections>
+                                        </button>
+                                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KpO-8K-CSD">
+                                            <rect key="frame" x="108" y="17" width="261" height="31"/>
+                                            <color key="minimumTrackTintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="maximumTrackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="playheadValueChanged:" destination="h9n-sq-8Zz" eventType="valueChanged" id="fev-Y3-7cS"/>
+                                            </connections>
+                                        </slider>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tVW-Qg-iQt" firstAttribute="leading" secondItem="IVe-Aj-NTU" secondAttribute="leading" constant="8" id="4mI-Ia-Sjf"/>
+                                        <constraint firstItem="C4a-5t-231" firstAttribute="leading" secondItem="tVW-Qg-iQt" secondAttribute="trailing" constant="15" id="FpG-vG-D7i"/>
+                                        <constraint firstItem="C4a-5t-231" firstAttribute="centerY" secondItem="IVe-Aj-NTU" secondAttribute="centerY" id="Xmg-cv-xJl"/>
+                                        <constraint firstItem="KpO-8K-CSD" firstAttribute="centerY" secondItem="IVe-Aj-NTU" secondAttribute="centerY" id="efO-zl-1oM"/>
+                                        <constraint firstAttribute="trailing" secondItem="KpO-8K-CSD" secondAttribute="trailing" constant="8" id="m3B-JU-HWg"/>
+                                        <constraint firstItem="tVW-Qg-iQt" firstAttribute="centerY" secondItem="IVe-Aj-NTU" secondAttribute="centerY" id="mak-ZJ-q1w"/>
+                                        <constraint firstItem="KpO-8K-CSD" firstAttribute="leading" secondItem="C4a-5t-231" secondAttribute="trailing" constant="15" id="tet-sX-Oio"/>
+                                    </constraints>
+                                </view>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="hex-hD-ZVx">
+                                        <variation key="heightClass=compact" constant="40"/>
+                                    </constraint>
+                                </constraints>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.059999999999999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hkq-Fy-pwc" firstAttribute="top" secondItem="UaZ-8U-gnb" secondAttribute="bottom" id="26f-G0-WL7"/>
+                            <constraint firstItem="yVe-Er-Kjh" firstAttribute="trailing" secondItem="UaZ-8U-gnb" secondAttribute="trailing" id="8BA-2c-gpi"/>
+                            <constraint firstItem="yVe-Er-Kjh" firstAttribute="trailing" secondItem="hkq-Fy-pwc" secondAttribute="trailing" id="8QP-es-A0O"/>
+                            <constraint firstItem="UaZ-8U-gnb" firstAttribute="top" secondItem="yVe-Er-Kjh" secondAttribute="top" id="EDO-Xc-cKX"/>
+                            <constraint firstItem="UaZ-8U-gnb" firstAttribute="leading" secondItem="yVe-Er-Kjh" secondAttribute="leading" id="ISF-uH-EcQ"/>
+                            <constraint firstItem="hkq-Fy-pwc" firstAttribute="leading" secondItem="yVe-Er-Kjh" secondAttribute="leading" id="PfD-Kg-4tF"/>
+                            <constraint firstItem="yVe-Er-Kjh" firstAttribute="bottom" secondItem="hkq-Fy-pwc" secondAttribute="bottom" id="q7C-95-1nI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yVe-Er-Kjh"/>
+                    </view>
+                    <connections>
+                        <outlet property="playerContainer" destination="UaZ-8U-gnb" id="5gM-wx-Qbg"/>
+                        <outlet property="playheadSlider" destination="KpO-8K-CSD" id="43w-iX-gSf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MRm-1h-7kV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.19999999999999" y="136.69950738916256"/>
+        </scene>
+    </scenes>
+</document>
