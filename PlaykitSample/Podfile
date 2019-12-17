@@ -1,0 +1,68 @@
+project 'PlayKitAppleTVSample.xcodeproj'
+
+platform :tvos, '9.0' # (define required version)
+
+use_frameworks!
+
+# Uncomment to use a local copy of PlayKit
+#PLAYKIT_LOCAL='../../playkit-ios'
+#PLAYKIT_ADMANAGER_LOCAL='../../playkit-ios-admanager-plugin'
+#PLAYKIT_YOUBORA_LOCAL='../../playkit-ios-youbora'
+#PLAYKIT_PROVIDERS_LOCAL='../../playkit-ios-providers'
+#PLAYKIT_KAVA_LOCAL='../../playkit-ios-kava'
+
+# Uncomment to use a git copy
+#PLAYKIT_GIT='https://github.com/kaltura/playkit-ios.git'
+#PLAYKIT_YOUBORA_GIT='https://github.com/kaltura/playkit-ios-youbora.git'
+#PLAYKIT_PROVIDERS_GIT='https://github.com/kaltura/playkit-ios-providers.git'
+#PLAYKIT_KAVA_GIT='https://github.com/kaltura/playkit-ios-kava.git'
+
+PLAYKIT_BRANCH=ENV['PK_BRANCH'] || 'develop'
+PLAYKIT_YOUBORA_BRANCH=ENV['PKY_BRANCH'] || 'develop'
+PLAYKIT_PROVIDERS_BRANCH=ENV['PKP_BRANCH'] || 'develop'
+PLAYKIT_KAVA_BRANCH=ENV['PK_KAVA_BRANCH'] || 'develop'
+
+
+abstract_target 'SharedPods' do
+  if defined? PLAYKIT_LOCAL
+    pod 'PlayKit', :path => PLAYKIT_LOCAL
+    else
+    if defined? PLAYKIT_GIT
+      pod 'PlayKit', :git => PLAYKIT_GIT, :branch => PLAYKIT_BRANCH
+      else
+      pod 'PlayKit', '~> 3.14'
+    end
+  end
+  
+  if defined? PLAYKIT_YOUBORA_LOCAL
+    pod 'PlayKitYoubora', :path => PLAYKIT_YOUBORA_LOCAL
+    else
+    if defined? PLAYKIT_YOUBORA_GIT
+      pod 'PlayKitYoubora', :git => PLAYKIT_YOUBORA_GIT, :branch => PLAYKIT_YOUBORA_BRANCH
+      else
+      pod 'PlayKitYoubora', '~> 1.4'
+    end
+  end
+  
+  if defined? PLAYKIT_PROVIDERS_LOCAL
+    pod 'PlayKitProviders', :path => PLAYKIT_PROVIDERS_LOCAL
+    else
+    if defined? PLAYKIT_PROVIDERS_GIT
+      pod 'PlayKitProviders', :git => PLAYKIT_PROVIDERS_GIT, :branch => PLAYKIT_PROVIDERS_BRANCH
+      else
+      pod 'PlayKitProviders', '~> 1.5'
+    end
+  end
+  
+  if defined? PLAYKIT_KAVA_LOCAL
+      pod 'PlayKitKava', :path => PLAYKIT_KAVA_LOCAL
+      else
+      if defined? PLAYKIT_KAVA_GIT
+          pod 'PlayKitKava', :git => PLAYKIT_KAVA_GIT, :branch => PLAYKIT_KAVA_BRANCH
+          else
+          pod 'PlayKitKava', '~> 1.3'
+      end
+  end
+  
+  target 'PlayKitAppleTVSample'
+end
